@@ -44,6 +44,12 @@ RUN apt-get update && \
         php7.0-zip \
         php7.0-memcached \
         php7.0-gd \
+        php7.0-zmq \
+        php7.0-bcmath \
+        php7.0-intl \
+        php7.0-pdo-dblib \
+        php7.0-soap \
+
         pkg-config \
         php-dev \
         libcurl4-openssl-dev \
